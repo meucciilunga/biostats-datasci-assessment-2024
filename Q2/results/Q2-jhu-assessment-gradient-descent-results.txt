@@ -1,0 +1,1410 @@
+# SECTION 3 - Addressing Explicit Questions of Q2
+# Generally, with a smaller step-value 'e', the algorithm requires more steps to adequately 
+# converge to within a given distance of an answer and is thus slower. However, results, 
+# especially at each step, are also generally more accurate w/ smaller steps. Algorithm tends
+# to fail when, for a fixed number of iterations, the steps are 'too small' and the initial
+# guess is to far away from true value. Notably, larger step sizes also tend to trigger 
+# overflow errors due to size of intermediate values involved in calculating gradient.
+
+TEST WITH RANDOM, NORMALIZED VECTORS:
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-34.848469059154986
+[2] Minimum 'b' calculated via analytic equation:							0.06771756360999533
+[3] Difference b/w numerical gradient value and analytic value of 'b':		34.91618662276498
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-10.644417214723394
+[2] Minimum 'b' calculated via analytic equation:							0.11311103762422091
+[3] Difference b/w numerical gradient value and analytic value of 'b':		10.757528252347614
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-29.423395767052853
+[2] Minimum 'b' calculated via analytic equation:							0.03358882713921884
+[3] Difference b/w numerical gradient value and analytic value of 'b':		29.456984594192072
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-13.831467000883123
+[2] Minimum 'b' calculated via analytic equation:							0.10158850708644818
+[3] Difference b/w numerical gradient value and analytic value of 'b':		13.933055507969572
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-32.317979774980145
+[2] Minimum 'b' calculated via analytic equation:							-0.10312934799410664
+[3] Difference b/w numerical gradient value and analytic value of 'b':		32.21485042698604
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-20.395272390278155
+[2] Minimum 'b' calculated via analytic equation:							0.0596137799292332
+[3] Difference b/w numerical gradient value and analytic value of 'b':		20.454886170207388
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-8.783194708579598
+[2] Minimum 'b' calculated via analytic equation:							-0.09030990781497443
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.692884800764624
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.339919357910426
+[2] Minimum 'b' calculated via analytic equation:							-0.18223651654861955
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.522155874459045
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-28.981301180173784
+[2] Minimum 'b' calculated via analytic equation:							-0.0042542624382300295
+[3] Difference b/w numerical gradient value and analytic value of 'b':		28.977046917735553
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				36.969550258151436
+[2] Minimum 'b' calculated via analytic equation:							-0.08730432681475568
+[3] Difference b/w numerical gradient value and analytic value of 'b':		37.05685458496619
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				33.51830297721914
+[2] Minimum 'b' calculated via analytic equation:							-0.10093623754040254
+[3] Difference b/w numerical gradient value and analytic value of 'b':		33.619239214759546
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				39.99564980465546
+[2] Minimum 'b' calculated via analytic equation:							-0.20278090164028142
+[3] Difference b/w numerical gradient value and analytic value of 'b':		40.19843070629574
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-7.2143105444203
+[2] Minimum 'b' calculated via analytic equation:							0.08825168310013563
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.302562227520435
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				24.345222216850196
+[2] Minimum 'b' calculated via analytic equation:							-0.067548239011587
+[3] Difference b/w numerical gradient value and analytic value of 'b':		24.412770455861782
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-14.644843388931623
+[2] Minimum 'b' calculated via analytic equation:							-0.05260558475336726
+[3] Difference b/w numerical gradient value and analytic value of 'b':		14.592237804178255
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-1.6422924408277777
+[2] Minimum 'b' calculated via analytic equation:							-0.0036118276112421356
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.6386806132165355
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-37.125265537980994
+[2] Minimum 'b' calculated via analytic equation:							0.024456231049892887
+[3] Difference b/w numerical gradient value and analytic value of 'b':		37.14972176903089
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				30.62221356790545
+[2] Minimum 'b' calculated via analytic equation:							-0.08332692278242719
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.705540490687877
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-22.930545787118476
+[2] Minimum 'b' calculated via analytic equation:							0.02626643321664499
+[3] Difference b/w numerical gradient value and analytic value of 'b':		22.95681222033512
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.74517339967791
+[2] Minimum 'b' calculated via analytic equation:							0.2073617832759053
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.537811616402005
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-23.708421028995012
+[2] Minimum 'b' calculated via analytic equation:							0.107861796517322
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.816282825512335
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-13.398885897521774
+[2] Minimum 'b' calculated via analytic equation:							0.0682269913151849
+[3] Difference b/w numerical gradient value and analytic value of 'b':		13.46711288883696
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.683772194402158
+[2] Minimum 'b' calculated via analytic equation:							-0.14922488179966764
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.832997076201826
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				0.8290976002548243
+[2] Minimum 'b' calculated via analytic equation:							-0.061818130381184735
+[3] Difference b/w numerical gradient value and analytic value of 'b':		0.890915730636009
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				13.07980273642204
+[2] Minimum 'b' calculated via analytic equation:							-0.11969882864742455
+[3] Difference b/w numerical gradient value and analytic value of 'b':		13.199501565069465
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-14.313877123592679
+[2] Minimum 'b' calculated via analytic equation:							-0.05183647066051171
+[3] Difference b/w numerical gradient value and analytic value of 'b':		14.262040652932168
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				37.19941004102357
+[2] Minimum 'b' calculated via analytic equation:							-0.008685519593921595
+[3] Difference b/w numerical gradient value and analytic value of 'b':		37.208095560617494
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-40.210950774128115
+[2] Minimum 'b' calculated via analytic equation:							0.0032049025840097953
+[3] Difference b/w numerical gradient value and analytic value of 'b':		40.214155676712124
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				34.85258282732546
+[2] Minimum 'b' calculated via analytic equation:							-0.0982353704678766
+[3] Difference b/w numerical gradient value and analytic value of 'b':		34.95081819779334
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				14.526037339189411
+[2] Minimum 'b' calculated via analytic equation:							-0.03645572648493402
+[3] Difference b/w numerical gradient value and analytic value of 'b':		14.562493065674346
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-22.379370991619616
+[2] Minimum 'b' calculated via analytic equation:							-0.1208846165787204
+[3] Difference b/w numerical gradient value and analytic value of 'b':		22.258486375040896
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				36.77552846764796
+[2] Minimum 'b' calculated via analytic equation:							0.04701557327966298
+[3] Difference b/w numerical gradient value and analytic value of 'b':		36.72851289436829
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-27.17981158533785
+[2] Minimum 'b' calculated via analytic equation:							-0.1068374926539121
+[3] Difference b/w numerical gradient value and analytic value of 'b':		27.072974092683936
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-35.295037948199635
+[2] Minimum 'b' calculated via analytic equation:							0.027436020514416355
+[3] Difference b/w numerical gradient value and analytic value of 'b':		35.32247396871405
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				40.00644086732916
+[2] Minimum 'b' calculated via analytic equation:							0.023789615753206386
+[3] Difference b/w numerical gradient value and analytic value of 'b':		39.98265125157595
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				38.184960172363446
+[2] Minimum 'b' calculated via analytic equation:							-0.06010600069289037
+[3] Difference b/w numerical gradient value and analytic value of 'b':		38.24506617305634
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-9.802139558336219
+[2] Minimum 'b' calculated via analytic equation:							-0.08133988014292766
+[3] Difference b/w numerical gradient value and analytic value of 'b':		9.720799678193291
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				36.59483226463961
+[2] Minimum 'b' calculated via analytic equation:							0.005878983182046375
+[3] Difference b/w numerical gradient value and analytic value of 'b':		36.58895328145756
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				15.137565862794778
+[2] Minimum 'b' calculated via analytic equation:							-0.01786756955993871
+[3] Difference b/w numerical gradient value and analytic value of 'b':		15.155433432354718
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-34.80824046089898
+[2] Minimum 'b' calculated via analytic equation:							0.12232467307285759
+[3] Difference b/w numerical gradient value and analytic value of 'b':		34.93056513397184
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-28.268251803720595
+[2] Minimum 'b' calculated via analytic equation:							0.06149676567769128
+[3] Difference b/w numerical gradient value and analytic value of 'b':		28.329748569398287
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				22.92501214816223
+[2] Minimum 'b' calculated via analytic equation:							0.0028460001261213196
+[3] Difference b/w numerical gradient value and analytic value of 'b':		22.92216614803611
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-18.49737141404973
+[2] Minimum 'b' calculated via analytic equation:							-0.12139899567313275
+[3] Difference b/w numerical gradient value and analytic value of 'b':		18.3759724183766
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				10.690739915776794
+[2] Minimum 'b' calculated via analytic equation:							-0.014582282917693206
+[3] Difference b/w numerical gradient value and analytic value of 'b':		10.705322198694487
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				13.50730801113533
+[2] Minimum 'b' calculated via analytic equation:							-0.037867887430744325
+[3] Difference b/w numerical gradient value and analytic value of 'b':		13.545175898566074
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-19.84441706966615
+[2] Minimum 'b' calculated via analytic equation:							0.018380481829162448
+[3] Difference b/w numerical gradient value and analytic value of 'b':		19.862797551495312
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-29.33861471752834
+[2] Minimum 'b' calculated via analytic equation:							0.1131169039584402
+[3] Difference b/w numerical gradient value and analytic value of 'b':		29.45173162148678
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				12.137038706387672
+[2] Minimum 'b' calculated via analytic equation:							-0.11435052234730425
+[3] Difference b/w numerical gradient value and analytic value of 'b':		12.251389228734977
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-0.8494966905979077
+[2] Minimum 'b' calculated via analytic equation:							-0.12452197310811475
+[3] Difference b/w numerical gradient value and analytic value of 'b':		0.7249747174897929
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.97087265289369
+[2] Minimum 'b' calculated via analytic equation:							-0.0902458042767322
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.061118457170422
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-3.063230276023973
+[2] Minimum 'b' calculated via analytic equation:							0.11872601634424572
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.1819562923682185
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				22.21788373561483
+[2] Minimum 'b' calculated via analytic equation:							0.04997672384267187
+[3] Difference b/w numerical gradient value and analytic value of 'b':		22.167907011772158
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				21.65143996671339
+[2] Minimum 'b' calculated via analytic equation:							-0.04065502384732054
+[3] Difference b/w numerical gradient value and analytic value of 'b':		21.69209499056071
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-18.27142845177965
+[2] Minimum 'b' calculated via analytic equation:							-0.048190037316418806
+[3] Difference b/w numerical gradient value and analytic value of 'b':		18.22323841446323
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-7.4050655473173705
+[2] Minimum 'b' calculated via analytic equation:							0.06847868421861984
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.473544231535991
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				16.280044459999804
+[2] Minimum 'b' calculated via analytic equation:							0.003007360950774776
+[3] Difference b/w numerical gradient value and analytic value of 'b':		16.27703709904903
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				23.428800458038054
+[2] Minimum 'b' calculated via analytic equation:							0.08715500632384338
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.34164545171421
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				27.291780216824197
+[2] Minimum 'b' calculated via analytic equation:							0.1667453230439266
+[3] Difference b/w numerical gradient value and analytic value of 'b':		27.12503489378027
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-7.422105295218246
+[2] Minimum 'b' calculated via analytic equation:							0.10151757095020145
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.523622866168447
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-30.102954537729232
+[2] Minimum 'b' calculated via analytic equation:							0.13561585779815719
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.23857039552739
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-35.326956538909556
+[2] Minimum 'b' calculated via analytic equation:							0.015398746799236071
+[3] Difference b/w numerical gradient value and analytic value of 'b':		35.34235528570879
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-22.91755957107685
+[2] Minimum 'b' calculated via analytic equation:							0.11085361289270435
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.028413183969555
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-26.784425356712287
+[2] Minimum 'b' calculated via analytic equation:							0.08402213280602794
+[3] Difference b/w numerical gradient value and analytic value of 'b':		26.868447489518314
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-8.17364082665308
+[2] Minimum 'b' calculated via analytic equation:							0.09012634145243953
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.263767168105518
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-30.779971974367907
+[2] Minimum 'b' calculated via analytic equation:							0.11504558313792251
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.89501755750583
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				30.065792707874987
+[2] Minimum 'b' calculated via analytic equation:							0.025876901881829135
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.039915805993157
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				30.86480343763505
+[2] Minimum 'b' calculated via analytic equation:							-0.008614031872484119
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.873417469507533
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				28.737050750438346
+[2] Minimum 'b' calculated via analytic equation:							0.181397187847063
+[3] Difference b/w numerical gradient value and analytic value of 'b':		28.55565356259128
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				35.30673496615193
+[2] Minimum 'b' calculated via analytic equation:							0.006588153693115939
+[3] Difference b/w numerical gradient value and analytic value of 'b':		35.30014681245881
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-23.164255880608952
+[2] Minimum 'b' calculated via analytic equation:							-0.04625406391791673
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.118001816691034
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				19.124338554442563
+[2] Minimum 'b' calculated via analytic equation:							0.013564276407285416
+[3] Difference b/w numerical gradient value and analytic value of 'b':		19.110774278035276
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.904005949000192
+[2] Minimum 'b' calculated via analytic equation:							0.10526041628390803
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.798745532716284
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-0.8505833496515057
+[2] Minimum 'b' calculated via analytic equation:							-0.05274700938484546
+[3] Difference b/w numerical gradient value and analytic value of 'b':		0.7978363402666603
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-33.32444530661283
+[2] Minimum 'b' calculated via analytic equation:							-0.005869091112945142
+[3] Difference b/w numerical gradient value and analytic value of 'b':		33.31857621549989
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				33.32154909023416
+[2] Minimum 'b' calculated via analytic equation:							-0.03351082164371249
+[3] Difference b/w numerical gradient value and analytic value of 'b':		33.355059911877866
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-8.32224567678047
+[2] Minimum 'b' calculated via analytic equation:							-0.17474987655101956
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.147495800229452
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				0.006430623728798456
+[2] Minimum 'b' calculated via analytic equation:							0.035750592969754434
+[3] Difference b/w numerical gradient value and analytic value of 'b':		0.02931996924095598
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				23.262097131239294
+[2] Minimum 'b' calculated via analytic equation:							0.12973049732550207
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.13236663391379
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				20.184671627175643
+[2] Minimum 'b' calculated via analytic equation:							0.011905656365764477
+[3] Difference b/w numerical gradient value and analytic value of 'b':		20.172765970809877
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-37.18144153960025
+[2] Minimum 'b' calculated via analytic equation:							-0.015873833671743495
+[3] Difference b/w numerical gradient value and analytic value of 'b':		37.16556770592851
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.4385580796297663
+[2] Minimum 'b' calculated via analytic equation:							-0.06259134328447158
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.5011494229142377
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.4129085108317225
+[2] Minimum 'b' calculated via analytic equation:							-0.10682306023070068
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.5197315710624233
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.076592313387249
+[2] Minimum 'b' calculated via analytic equation:							-0.03499993341297731
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.111592246800226
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-3.351711542365815
+[2] Minimum 'b' calculated via analytic equation:							-0.05746886163261609
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.294242680733199
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				25.8827141140669
+[2] Minimum 'b' calculated via analytic equation:							0.09386412965607781
+[3] Difference b/w numerical gradient value and analytic value of 'b':		25.788849984410824
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-23.792018669722687
+[2] Minimum 'b' calculated via analytic equation:							0.07239037580554045
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.864409045528227
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-23.862874950098934
+[2] Minimum 'b' calculated via analytic equation:							-0.07014661244293506
+[3] Difference b/w numerical gradient value and analytic value of 'b':		23.792728337655998
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-7.68865903925179
+[2] Minimum 'b' calculated via analytic equation:							-0.10488911868599657
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.583769920565794
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-17.833477938403433
+[2] Minimum 'b' calculated via analytic equation:							0.11549891623179608
+[3] Difference b/w numerical gradient value and analytic value of 'b':		17.94897685463523
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				30.05789776368287
+[2] Minimum 'b' calculated via analytic equation:							-0.03462117925091247
+[3] Difference b/w numerical gradient value and analytic value of 'b':		30.092518942933783
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				34.61576939654765
+[2] Minimum 'b' calculated via analytic equation:							-0.10139594555465159
+[3] Difference b/w numerical gradient value and analytic value of 'b':		34.7171653421023
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				22.24227306003751
+[2] Minimum 'b' calculated via analytic equation:							0.009220896081573334
+[3] Difference b/w numerical gradient value and analytic value of 'b':		22.233052163955936
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-3.9127063729866265
+[2] Minimum 'b' calculated via analytic equation:							-0.014484229442850138
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.8982221435437765
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				27.800092527814154
+[2] Minimum 'b' calculated via analytic equation:							-0.16017821308650068
+[3] Difference b/w numerical gradient value and analytic value of 'b':		27.960270740900654
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-6.75848722085611
+[2] Minimum 'b' calculated via analytic equation:							-0.069615855118864
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.688871365737246
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-3.327034791755008
+[2] Minimum 'b' calculated via analytic equation:							-0.013424446614206805
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.3136103451408014
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				40.04715897848521
+[2] Minimum 'b' calculated via analytic equation:							0.07920762414572902
+[3] Difference b/w numerical gradient value and analytic value of 'b':		39.967951354339476
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.601653773439521
+[2] Minimum 'b' calculated via analytic equation:							0.014201442940552556
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.5874523304989685
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-3.327764780122126
+[2] Minimum 'b' calculated via analytic equation:							0.05898659710900592
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.386751377231132
+
+
+step-size:					1e-06
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				-14.674085057662563
+[2] Minimum 'b' calculated via analytic equation:							-0.08937829136699936
+[3] Difference b/w numerical gradient value and analytic value of 'b':		14.584706766295563
+
+
+TEST WITH RANDOM, NORMAL VECTORS:
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.502763206742038e-70
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.502763206742038e-70
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.1333865406899325e-112
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.1333865406899325e-112
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.4561296848604316e-91
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.4561296848604316e-91
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.359254483617664e-20
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.359254483617664e-20
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.802141147759532e-94
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.802141147759532e-94
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.298959417042578e-40
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.298959417042578e-40
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.360008721587785e-32
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.360008721587785e-32
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.50660925737758e-44
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.50660925737758e-44
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.4211454314969278e-68
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.4211454314969278e-68
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.374982891902031e-140
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.374982891902031e-140
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.1720454038844488e-117
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.1720454038844488e-117
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.267552432253419e-136
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.267552432253419e-136
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.6301202049767356e-27
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.6301202049767356e-27
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.808059114898018e-81
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.808059114898018e-81
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.0187157538264398e-57
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.0187157538264398e-57
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.032402227044509e-47
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.032402227044509e-47
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.959194234899981e-30
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.959194234899981e-30
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.314042587196591e-61
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.314042587196591e-61
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.060756904413405e-122
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.060756904413405e-122
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.2015286877496315e-32
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.2015286877496315e-32
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.2302319221611124e-96
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.2302319221611124e-96
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.507578334989741e-111
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.507578334989741e-111
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.6492768382514e-51
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.6492768382514e-51
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.359057897877805e-103
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.359057897877805e-103
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.437502934668362e-88
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.437502934668362e-88
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.4578971245130525e-102
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.4578971245130525e-102
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.8032201363751887e-94
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.8032201363751887e-94
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.130373003844281e-58
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.130373003844281e-58
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.4099980235265655e-131
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.4099980235265655e-131
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				6.9611533521057554e-37
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.9611533521057554e-37
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.0106847168621404e-10
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.0106847168621404e-10
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.1354783061216198e-33
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.1354783061216198e-33
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				9.575318504609305e-93
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		9.575318504609305e-93
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.8700000176481777e-21
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.8700000176481777e-21
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.291822747745051e-22
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.291822747745051e-22
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.741803066389489e-27
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.741803066389489e-27
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.7410902216698395e-105
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.7410902216698395e-105
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.0077935714756882e-19
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.0077935714756882e-19
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.2973122665450458e-114
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.2973122665450458e-114
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.1040389566308415e-86
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.1040389566308415e-86
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				6.1482028081758605e-171
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.1482028081758605e-171
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.502763206742038e-70
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.502763206742038e-70
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.3287810393372075e-99
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.3287810393372075e-99
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.049149534049439e-95
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.049149534049439e-95
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.8654168677654603e-67
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.8654168677654603e-67
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.4578971245130525e-102
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.4578971245130525e-102
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.6301202049767356e-27
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.6301202049767356e-27
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.2973122665450458e-114
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.2973122665450458e-114
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.5822298302593294e-28
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.5822298302593294e-28
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.2846184843486812e-59
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.2846184843486812e-59
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				6.318866669460786e-38
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.318866669460786e-38
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.545778225009504e-50
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.545778225009504e-50
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.1534035665815968e-121
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.1534035665815968e-121
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.437502934668362e-88
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.437502934668362e-88
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.3004237932844278e-47
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.3004237932844278e-47
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.545778225009504e-50
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.545778225009504e-50
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.5943235956975192e-77
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.5943235956975192e-77
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.132577678824331e-100
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.132577678824331e-100
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.3011488414904071e-130
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.3011488414904071e-130
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.1720454038844488e-117
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.1720454038844488e-117
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				0.010882054146648175
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		0.010882054146648175
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.005790851366424e-74
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.005790851366424e-74
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.936341967376963e-36
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.936341967376963e-36
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.103765562558078e-08
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.103765562558078e-08
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.4736838429496686e-93
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.4736838429496686e-93
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.3748238955389475e-39
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.3748238955389475e-39
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.37225594300247e-08
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.37225594300247e-08
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				6.43187118675873e-23
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.43187118675873e-23
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.2712492142989297e-155
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.2712492142989297e-155
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.184137149682259e-31
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.184137149682259e-31
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.833120281354531e-53
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.833120281354531e-53
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.502763206742038e-70
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.502763206742038e-70
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.298959417042578e-40
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.298959417042578e-40
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.0383094181645438e-210
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.0383094181645438e-210
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				9.745716204770826e-129
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		9.745716204770826e-129
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.75031628971484e-46
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.75031628971484e-46
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				8.235328837121524e-63
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		8.235328837121524e-63
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.9797692144294727e-56
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.9797692144294727e-56
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.1732622175678306e-153
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.1732622175678306e-153
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.8914890440136337e-144
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.8914890440136337e-144
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.374982891902031e-140
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.374982891902031e-140
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.4992370351969786e-75
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.4992370351969786e-75
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				3.3450542617721277e-06
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		3.3450542617721277e-06
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				6.43187118675873e-23
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		6.43187118675873e-23
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.000256614598663e-53
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.000256614598663e-53
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.437502934668362e-88
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.437502934668362e-88
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.608931453568478e-44
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.608931453568478e-44
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.229481449983835e-16
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.229481449983835e-16
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.2428746287524973e-105
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.2428746287524973e-105
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.162926716553249e-93
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.162926716553249e-93
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.032402227044509e-47
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.032402227044509e-47
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				7.235610200696775e-87
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		7.235610200696775e-87
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.07640535455968e-219
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.07640535455968e-219
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				5.772611629310534e-144
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		5.772611629310534e-144
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				9.63152241848332e-90
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		9.63152241848332e-90
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				1.129961347019492e-05
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		1.129961347019492e-05
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				4.491851251449332
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		4.491851251449332
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				9.88777172187351e-07
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		9.88777172187351e-07
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.075643050045433e-05
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.075643050045433e-05
+
+
+step-size:					0.0001
+# of descent iterations:	1000
+[1] Minimum 'b' calculated via gradient descent implementation:				2.035512300682664e-12
+[2] Minimum 'b' calculated via analytic equation:							0.0
+[3] Difference b/w numerical gradient value and analytic value of 'b':		2.035512300682664e-12
+
+
